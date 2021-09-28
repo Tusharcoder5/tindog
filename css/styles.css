@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat';
+}
+#title{
+  background-color:#172132;
+  color: #fff;
+}
+
+h1{
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 20%;
+}
+h2{
+  font-family:'Montserrat-Black';
+  font-size:2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Mantserrat-bold';
+  /* font-weight: bold; */
+
+}
+p{
+  font-family: 'IBM Plex Sans Arabic';
+  font-size: 1.2rem;
+  color: #8f8f8f;
+  font-weight: bold;
+}
+.btn{
+  font-weight: bold;
+}
+.container-fluid{
+ padding: 4% 15%;
+}
+.brand{
+  color:#fff;
+  font-family:'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+.nav-link{
+  font-weight:bold;
+  color: black;
+}
+/* .Download{
+  margin: 15% 0%;
+} */
+/* .Download-btn{
+margin-left: 5%;
+} */
+/* styling image */
+.dog-img{
+/* margin-left: 10%;
+height:75%; */
+width: 25%;
+transform: rotate(25deg);
+right:15%;
+padding-top: 3rem;
+
+position:absolute;
+
+
+}
+
+.Download-btn{
+  margin:5% 5% 5% 0;
+}
+
+/* Styling Navbar */
+.nav-item{
+padding: 0 1rem;
+}
+.nav-link{
+  font-size: 1.1rem;
+}
+/* Features */
+#features{
+  background-color: white;
+   /* margin: 10%; */
+  padding: 15% 15%;
+  position: relative;
+  /* z-index: 1; */
+
+
+}
+
+.feature-box{
+  text-align: center;
+  line-height:2rem;
+}
+.check{
+
+  color:#ef8172;
+  text-align: center;
+  font-size: 3rem;
+
+
+
+}
+.check:hover{
+  color:#ff4c68;
+}
+/* Section testimonials */
+#testimonials{
+  background-color: #385580;
+  text-align: center;
+  color: #fff;
+}
+#carouselExampleIndicators{
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin:2%;
+}
+.testimonial-div1{
+  padding:5% 15%;
+}
+/* PRESS */
+#press{
+  background-color: #385580;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+margin: 20px;
+width: 15%;
+}
+.color-change{
+  filter: invert(100%);
+}
+/* section Pricing */
+#pricing{
+  text-align: center;
+  padding: 5%;
+}
+.pricing-row{
+  padding-top:5%;
+}
+@media (max-width:1012px){
+  #title{
+    text-align: center;
+  }
+  .Download-btn{
+    margin: 5% 3% 5% 0;
+  }
+  .dog-img{
+    position: static;
+    width: 75%;
+    transform: rotate(0);
+  }
+}
+/* styling call to action */
+#cta{
+  background-color: #385580;
+  text-align: center;
+  padding: 10% 25%;
+
+}
+.cta-heading{
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+
+}
+.f{
+  margin-right:5px;
+}
+#footer{
+  background-color: #fff;
+  text-align:center;
+  margin:2% 5%;
+
+}
+.social{
+  margin: 2%;
+  font-size: 1.5rem;
+}
